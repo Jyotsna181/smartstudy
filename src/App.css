@@ -103,6 +103,17 @@ header .logo{
   color: var(--pink);
 }
 
+.navbar.active {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: absolute;
+  margin-bottom: 3rem;
+  transform: translateX(0);
+  height: 10rem;
+  background-color: #fffdfd;
+}
+
 #menu{
   font-size: 2.5rem;
   padding:.5rem 1rem;
